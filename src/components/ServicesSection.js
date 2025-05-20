@@ -1,7 +1,7 @@
 export default function ServicesSection() {
     return (
         <section id="services" className="min-h-screen flex flex-col gap-8 items-center justify-end px-6 md:px-20 lg:px-40">
-            <div className="mt-8 md:mt-0 w-full flex flex-col md:flex-row gap-6 items-stretch justify-between ">
+            <div className="mt-8 md:mt-10 w-full flex flex-col md:flex-row gap-6 items-stretch justify-between ">
 
                 <div className="flex flex-1 items-start p-4 bg-white rounded shadow-sm">
                     <img src="/images/service-confidential.png" alt="Confidential" className="w-16 h-16 md:w-20 md:h-20 mr-4" />
@@ -35,8 +35,7 @@ export default function ServicesSection() {
 
             </div>
 
-
-            <div className="w-full h-[70%] flex flex-col md:flex-row 0">
+            <div className="w-full h-[70%] flex flex-col md:flex-row">
                 <div className="w-2/2 md:w-1/2 p-8 flex flex-col justify-center ">
                     <h2 className="text-5xl font-gilroyBlack mb-4 text-orange">
                         Our <br />
