@@ -32,11 +32,11 @@ const Footer = () => {
                 <div className="md:ml-20">
                     <h3 className="text-lg font-gilroyBold mb-3">Quick Links</h3>
                     <ul className="space-y-2 text-white text-sm">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="#">Why Choose Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="#">Why Choose Us</Link></li>
+                        <li><Link href="#">Services</Link></li>
+                        <li><Link href="#">About Us</Link></li>
+                        <li><Link href="#">Contact Us</Link></li>
                     </ul>
                 </div>
 
@@ -58,24 +58,24 @@ const Footer = () => {
                     <h3 className="text-lg font-gilroyBold mb-3">Social Media</h3>
                     <ul className="space-y-3 text-white text-sm">
                         <li>
-                            <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-blue-500 transition">
+                            <Link href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-blue-500 transition">
                                 <FaFacebookF /> Facebook
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-pink-400 transition">
+                            <Link href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-pink-400 transition">
                                 <FaInstagram /> Instagram
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-red-500 transition">
+                            <Link href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-red-500 transition">
                                 <FaYoutube /> YouTube
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-gray-300 transition">
+                            <Link href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer" className="flex justify-center md:justify-start items-center gap-2 hover:text-gray-300 transition">
                                 <FaTiktok /> TikTok
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
